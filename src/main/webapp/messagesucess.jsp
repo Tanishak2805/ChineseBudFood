@@ -13,13 +13,7 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-sendsms.init();
-sendsms.server = "https://sample.smshosts.com/";
-sendsms.user = "username";
-sendsms.password = "password";
-sendsms.phonenumber = "+9970142241";
-sendsms.text = "This is a test message";
-sendsms.send();
+
 	<div class="container">
 		<div class="alert alert-success alert-dismissible fade in">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
