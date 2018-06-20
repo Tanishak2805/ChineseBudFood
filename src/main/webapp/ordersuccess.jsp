@@ -18,8 +18,10 @@
 				</center>
 
 				<p class="notice">
-					Note:<br>Use <a href="Contact.jsp"> Contact us</a> for any
-					queries.
+					Note:<br>Fil your information <a href="Contact.jsp"> here</a> for any
+					queries. We will reach out to you.
+				</p>
+				<p> Or directly reach out to your outlet from <a href="outlet.jsp"> here</a>
 				</p>
 			</div>
 		</div>
