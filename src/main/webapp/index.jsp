@@ -26,31 +26,69 @@ body {
 	padding-top: 50px;
 	height: 500px;
 	color: #fff;
-	background-color: #673ab7;
+	background-color: #DE9C30;
 }
 
 #section3 {
 	padding-top: 50px;
 	height: 500px;
 	color: #fff;
-	background-color: #ff9800;
+	background-color: #93DA74;
 }
 
 #section41 {
 	padding-top: 50px;
 	height: 500px;
 	color: #fff;
-	background-color: #00bcd4;
+	background-color: #3FCED7;
 }
 
 #section42 {
 	padding-top: 50px;
 	height: 500px;
 	color: #fff;
-	background-color: #009688;
+	background-color: #DA9999;
 }
 </style>
 </head>
+<body>
+<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="<%=request.getContextPath()%>/images/carousel1.jpg" alt="our restaurant" style="width:115%;">
+      </div>
+
+      <div class="item">
+        <img src="<%=request.getContextPath()%>/images/carousel2.jpg" alt="get indulged" style="width:115%;">
+      </div>
+    
+      <div class="item">
+        <img src="<%=request.getContextPath()%>/images/carousel3.jpg" alt="the classics" style="width:115%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<br> 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -109,6 +147,6 @@ body {
 		<p>Like our history we  have a long list of outlets</p>
 		<a href="outlet.jsp"> So find one near you here.</a>
 	</div>
-
+</body>
 </body>
 </html>
